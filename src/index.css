@@ -96,3 +96,17 @@ h1 {
 .bold {
     font-weight: 700;
 }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p, input, ::placeholder {
+        font-size: 1.6rem;
+    }
+
+    .app .bottom {
+        flex-direction: column; /* Stack elements vertically on very small screens */
+    }
+}

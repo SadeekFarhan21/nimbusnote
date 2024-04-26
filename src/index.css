@@ -59,8 +59,8 @@ h1 {
 }
 
 .container {
-    max-width: 1000px;
-    height: 600px;
+    max-width: 900px;
+    height: 550px;
     margin: auto;
     padding: 0 1rem;
     position: relative;

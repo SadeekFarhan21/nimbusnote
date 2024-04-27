@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
     const [data, setData] = useState({});
@@ -42,6 +43,7 @@ function App() {
 
     return (
         <div className="app">
+            <Analytics />
             <div className="search">
                 <input
                     value={location}
